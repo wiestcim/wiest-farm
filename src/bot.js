@@ -14,7 +14,6 @@ const packageJson = require("../package.json");
 const fs = require("node:fs");
 const chalk = require("chalk");
 const express = require('express');
-const app = express();
 
 const globalutil = require("./utils/globalutil.js");
 const configValidator = require("./services/configValidator.js");
@@ -22,9 +21,6 @@ const configValidator = require("./services/configValidator.js");
 //client
 const { Client, Collection, RichPresence } = require("discord.js-selfbot-v13");
 const client = new Client();
-const statusPage = require('./status');
-
-app.get('/', statusPage);
 
 const mesaj = [
 "Selamün Aleyküm",
@@ -231,4 +227,3 @@ async function initializeBot() {
     client.logger.warn("Bot", "Startup", "Logging in...");
     await client.login(process.env.MAIN_TOKEN);
 }
-app.listen(3000, () => console.log('Server hazır!'));
