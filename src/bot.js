@@ -10,11 +10,6 @@ const cp = require("node:child_process");
 const { config, DEVELOPER_MODE } = require("./services/configLoader.js");
 const packageJson = require("../package.json");
 
-const express = require('express');
-const app = express();
-app.get('/', (req, res) =>
-res.send('Bot Aktif!'));
-app.listen(3000);
 
 const fs = require("node:fs");
 const chalk = require("chalk");
