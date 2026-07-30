@@ -20,7 +20,11 @@ const configValidator = require("./services/configValidator.js");
 //client
 const { Client, Collection, RichPresence } = require("discord.js-selfbot-v13");
 const client = new Client();
+const statusPage = require('./status');
 
+app.get('/', statusPage);
+
+app.listen(3000, () => console.log('Server hazır!'));
 const mesaj = [
 "Selamün Aleyküm",
 "Aleyküm Selam",
