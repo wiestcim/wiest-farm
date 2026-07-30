@@ -1,4 +1,3 @@
-
 module.exports = (req, res) => {
   const html = `<!DOCTYPE html>
 <html lang="tr">
