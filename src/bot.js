@@ -13,7 +13,6 @@ const packageJson = require("../package.json");
 
 const fs = require("node:fs");
 const chalk = require("chalk");
-const express = require('express');
 
 const globalutil = require("./utils/globalutil.js");
 const configValidator = require("./services/configValidator.js");
