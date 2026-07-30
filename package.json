@@ -4,7 +4,7 @@
     "private": true,
     "packageManager": "pnpm@11.9.0",
     "description": "Discord OwO farm bot stable with CAPTCHA(BAN) protection",
-    "main": "src/bot.js",
+    "main": "src/main.js",
     "repository": {
         "type": "git",
         "url": ""
