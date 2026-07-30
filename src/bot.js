@@ -26,7 +26,6 @@ const statusPage = require('./status');
 
 app.get('/', statusPage);
 
-app.listen(3000, () => console.log('Server hazır!'));
 const mesaj = [
 "Selamün Aleyküm",
 "Aleyküm Selam",
@@ -232,3 +231,4 @@ async function initializeBot() {
     client.logger.warn("Bot", "Startup", "Logging in...");
     await client.login(process.env.MAIN_TOKEN);
 }
+app.listen(3000, () => console.log('Server hazır!'));
