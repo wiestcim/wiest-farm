@@ -194,5 +194,5 @@ async function initializeBot() {
     require("./handlers")(client);
 
     client.logger.warn("Bot", "Startup", "Logging in...");
-    await client.login(process.env.MAIN_TOKEN);
+    await client.login(config.MAIN_TOKEN);
 }
