@@ -5,10 +5,9 @@
     "packageManager": "pnpm@11.9.0",
     "description": "Discord OwO farm bot stable with CAPTCHA(BAN) protection",
     "main": "src/main.js",
-    "repository": {
+"repository": {
         "type": "git",
-        "url": ""
-    },
+        "url": "git+https://github.com/wiestcim/wiest-farm.git"
     "keywords": [
         "nodejs",
         "bot",
