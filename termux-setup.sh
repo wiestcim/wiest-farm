@@ -45,7 +45,7 @@ sleep 1
 echo "${GREEN} [+] ${BLUE} Installed Packages ${RESTORE}"
 echo "${GREEN} [+] ${BLUE} Installing Wiest Farm Bot Stable ${RESTORE}"
 git clone --recurse-submodules https://github.com/wiestcim/wiest-farm
-cd owofarmbot_stable
+cd wiest_farm
 echo "${GREEN} [+] ${BLUE} Installing nodejs packages${RESTORE}"
 npm i --no-bin-links #using --no-bin-links to not get any errors regarding symbolic links
-echo "${GREEN} [=] Installed Successfully , Please run 'node main.js'"
+echo "${GREEN} [=] Installed Successfully , Please run 'node src/main.js'"
