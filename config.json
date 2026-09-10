@@ -2,13 +2,13 @@
   "firstrun": false,
   "prefix": "!",
   "main": {
-    "userid": "247030245167726592",
-    "sohbet": "1521878776462708776",
-    "commandschannelid": "1521636404541526016",
-    "huntbotchannelid": "1521237334283260027",
-    "owodmchannelid": "1133113056336035961",
-    "gamblechannelid": "1521638824692682972",
-    "autoquestchannelid": "1521638851502936175",
+    "userid": "",
+    "sohbet": "",
+    "commandschannelid": "",
+    "huntbotchannelid": "",
+    "owodmchannelid": "",
+    "gamblechannelid": "",
+    "autoquestchannelid": "",
     "autostart": true,
     "commands": {
       "hunt": true,
@@ -81,7 +81,7 @@
       "autosolve_thread": 1,
       "alerttype": {
         "webhook": true,
-        "webhookurl": "https://discord.com/api/webhooks/1530704150906802289/fxbwQzvd7MioM751EjwTIb0aNAXkyUoCkrhJ7oZdD9tGb9rfS5SsvXDxwgurF-EJQ-UC",
+        "webhookurl": "",
         "desktop": {
           "force": true,
           "notification": true,
