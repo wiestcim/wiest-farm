@@ -16,7 +16,7 @@ const chalk = require("chalk");
 
 const globalutil = require("./utils/globalutil.js");
 const configValidator = require("./services/configValidator.js");
-
+const config = require("../config.json")
 //client
 const { Client, Collection, RichPresence } = require("discord.js-selfbot-v13");
 const client = new Client();
